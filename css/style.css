@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 60%;
+  margin: 15px auto;
+  padding: 10px 45px; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(213, 248, 236);
+  border-radius: 10px;
+}
+
+.container::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#output{
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#msg{
+  color: rgb(1, 1, 14);
+  font-size: 25px;
+}
