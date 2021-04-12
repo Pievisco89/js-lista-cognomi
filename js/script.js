@@ -20,8 +20,8 @@ for(var i = 0; i < lista_cognomi.length; i++){
   document.getElementById('output').innerHTML = elemento_precedente + "<li>" + elemento_lista + "</li>";
   
   /*creo posizione umana cognome utente*/
-  var a = lista_cognomi.indexOf(cognome_utente) + 1;
+  var posizione = lista_cognomi.indexOf(cognome_utente) + 1;
 
-  document.getElementById('msg').innerHTML = "Il cognome da te inserito è alla posizione: " + a + "!";
+  document.getElementById('msg').innerHTML = "Il cognome da te inserito è alla posizione: " + posizione + "!";
 
 }
